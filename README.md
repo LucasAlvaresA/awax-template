@@ -1,6 +1,6 @@
 # Awax Template
 
->Template Awax criado com HTML/CSS
+>Awax template created with HTML/CSS
 
 [View Demo](https://lucasalvaresa.github.io/awax-template/)
 
