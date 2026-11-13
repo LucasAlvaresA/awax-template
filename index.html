@@ -13,61 +13,41 @@
                 <div class="logoimg"></div>
             </div>
             <div class="menu">
-                <img class="menu-opener" src="assets/img/icons/menu.png"/>
                 <nav>
                     <ul>
-                        <li class="active"><a href="">Home</a></li>
-                        <li><a href="">About us</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Our Projects</a></li>
-                        <li><a href="">Our Team</a></li>
-                        <li><a href="">Happy Clients</a></li>
-                        <li><a href="">Price</a></li>
-                        <li><a href="">Some Facts</a></li>
-                        <li><a href="">Contact Us</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Our Projects</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#clients">Happy Clients</a></li>
+                        <li><a href="#price">Price</a></li>
+                        <li><a href="#facts">Some Facts</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
     <main>
-        <section class="banner">
-            <div class="sliders" style="margin-left: 0;">
+        <section class="banner" id="home">
+            <div class="sliders">
                 <div class="slide">
                     <div class="slidearea">
-                        <h1>Design is about</br> <span> Communication</span></h1>
+                        <h1>Design is about<br /> <span> Communication</span></h1>
                         <h2>Call Us: +00 0 1234 5678</h2>
-                        <a href="" class="button">Get in touch !</a>
+                        <a href="#contact" class="button">Get in touch !</a>
                     </div>
                 </div>
-                <!-- <div class="slide">
-                    <div class="slidearea">
-                        <h1>Design is about</br> <span> Slide 2 teste</span></h1>
-                        <h2>Call Us: +00 0 1234 5678</h2>
-                        <a href="">Get in touch !</a>
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="slidearea">
-                        <h1>Design is about</br> <span> Slide 3 teste</span></h1>
-                        <h2>Call Us: +00 0 1234 5678</h2>
-                        <a href="">Get in touch !</a>
-                    </div>
-                </div> -->
-            </div>
-            <div class="sliders-pointers">
-                <div class="pointer active"></div>
-                <div class="pointer"></div>
-                <div class="pointer"></div>
             </div>
         </section>
-        <section class="default default-light">
+        <section class="default light" id="about">
             <div class="section-title">About us</div>
             <div class="section-desc">Who we are?</div>
             <div class="section-body">
                 <div class="section-aboutus">
                     <div class="section-aboutus--left">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices rhoncus enim, nec vestibulum odio molestie vitae. Curabitur sed leo tellus. Praesent dapibus urna a venenatis posuere. Aenean a tortor ipsum. Proin rhoncus quam quis ante sodales laoreet. Morbi et viverra leo. Fusce tempus justo enim, non egestas odio auctor in. Praesent eget lobortis felis. Donec ultricies pulvinar velit, ut rutrum libero varius quis. Maecenas ullamcorper felis vel nisi dapibus pellentesque. Etiam finibus, augue vitae placerat convallis, quam lorem aliquam dolor, posuere pellentesque felis mauris sed tellus. Phasellus a posuere risus.</p>
+                        <p>Awax is an independent creative studio bringing strategy, design and technology together. We partner with ambitious teams to shape clear brand identities and thoughtful digital experiences, from the first idea through launch and beyond.</p>
                         <br/>
                         <a href="" class="button">Learn More</a>
                     </div>
@@ -77,7 +57,7 @@
                 </div>
             </div>
         </section>
-        <section class="default dark">
+        <section class="default dark" id="services">
             <div class="section-title">Services</div>
             <div class="section-desc">Services that we provide</div>
             <div class="section-body">
@@ -85,27 +65,27 @@
                     <div class="section-service">
                         <img src="assets/img/icons/medalha.png"/>
                         <h4>High Quality Design</h4>
-                        <p>Lorem Ipsum is simply dummy text </p>
+                        <p>Thoughtful design built to make every brand touchpoint feel distinct.</p>
                     </div>
                     <div class="section-service">
                         <img src="assets/img/icons/estrela.png"/>
                         <h4>Modern Design</h4>
-                        <p>The printing and typesetting industry</p>
+                        <p>Fresh visual systems that connect a good idea with the right audience.</p>
                     </div>
                     <div class="section-service">
                         <img src="assets/img/icons/relogio.png"/>
                         <h4>Regular Updates</h4>
-                        <p>Lorem Ipsum has been the industry's standard</p>
+                        <p>Ongoing refinements keep your website and brand feeling current.</p>
                     </div>
                     <div class="section-service">
                         <img src="assets/img/icons/balao.png"/>
                         <h4>Fast and free support</h4>
-                        <p>It is a long established fact that a reader will be distracted</p>
+                        <p>Friendly, reliable support from the first conversation to launch day.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="default default-light">
+        <section class="default light" id="projects">
             <div class="section-title">Our Projects</div>
             <div class="section-desc">What we create</div>
             <div class="section-body">
@@ -121,126 +101,102 @@
                         </ul>
                     </div>
                     <div class="section-projects--photos">
-                        <div class="section-projects--photos">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Lorem Ipsum is simply dummy text</p>
-                                </div>
-                                <img src="assets/img/foto1.jpg"/>
+                        <div class="section-projects--photoarea">
+                            <div class="section-projects--photoinfo">
+                                <h5>Brand identity</h5>
+                                <p>A fresh identity for conscious living.</p>
                             </div>
+                            <img src="assets/img/foto1.jpg"/>
                         </div>
-                        <div class="section-projects--photos">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Lorem Ipsum is simply dummy text</p>
-                                </div>
-                                <img src="assets/img/foto2.jpg"/>
+                        <div class="section-projects--photoarea">
+                            <div class="section-projects--photoinfo">
+                                <h5>Art direction</h5>
+                                <p>A warm visual language for everyday rituals.</p>
                             </div>
+                            <img src="assets/img/foto2.jpg"/>
                         </div>
-                        <div class="section-projects--photos">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Lorem Ipsum is simply dummy text</p>
-                                </div>
-                                <img src="assets/img/foto3.jpg"/>
+                        <div class="section-projects--photoarea">
+                            <div class="section-projects--photoinfo">
+                                <h5>Packaging</h5>
+                                <p>Distinctive packaging for a memorable blend.</p>
                             </div>
+                            <img src="assets/img/foto3.jpg"/>
                         </div>
-                        <div class="section-projects--photos">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Lorem Ipsum is simply dummy text</p>
-                                </div>
-                                <img src="assets/img/foto4.jpg"/>
+                        <div class="section-projects--photoarea">
+                            <div class="section-projects--photoinfo">
+                                <h5>Digital product</h5>
+                                <p>Useful digital tools for creative teams.</p>
                             </div>
+                            <img src="assets/img/foto4.jpg"/>
                         </div>
-                        <div class="section-projects--photos">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Lorem Ipsum is simply dummy text</p>
-                                </div>
-                                <img src="assets/img/foto5.jpg"/>
+                        <div class="section-projects--photoarea">
+                            <div class="section-projects--photoinfo">
+                                <h5>Campaign</h5>
+                                <p>A visual story inspired by the outdoors.</p>
                             </div>
+                            <img src="assets/img/foto5.jpg"/>
                         </div>
-                        <div class="section-projects--photos">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Lorem Ipsum is simply dummy text</p>
-                                </div>
-                                <img src="assets/img/foto6.jpg"/>
+                        <div class="section-projects--photoarea">
+                            <div class="section-projects--photoinfo">
+                                <h5>Photography</h5>
+                                <p>People and ideas at the heart of every project.</p>
                             </div>
+                            <img src="assets/img/foto6.jpg"/>
                         </div>
-                        <div class="section-projects--photos">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Lorem Ipsum is simply dummy text</p>
-                                </div>
-                                <img src="assets/img/foto1.jpg"/>
+                        <div class="section-projects--photoarea">
+                            <div class="section-projects--photoinfo">
+                                <h5>Brand identity</h5>
+                                <p>Clear brand language for a more mindful future.</p>
                             </div>
+                            <img src="assets/img/foto1.jpg"/>
                         </div>
-                        <div class="section-projects--photos">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Lorem Ipsum is simply dummy text</p>
-                                </div>
-                                <img src="assets/img/foto2.jpg"/>
+                        <div class="section-projects--photoarea">
+                            <div class="section-projects--photoinfo">
+                                <h5>Art direction</h5>
+                                <p>Creating a welcoming experience at every turn.</p>
                             </div>
+                            <img src="assets/img/foto2.jpg"/>
                         </div>
-                        <div class="section-projects--photos">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Lorem Ipsum is simply dummy text</p>
-                                </div>
-                                <img src="assets/img/foto3.jpg"/>
+                        <div class="section-projects--photoarea">
+                            <div class="section-projects--photoinfo">
+                                <h5>Packaging</h5>
+                                <p>Color, texture and detail for a standout product.</p>
                             </div>
+                            <img src="assets/img/foto3.jpg"/>
                         </div>
-                        <div class="section-projects--photos">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Lorem Ipsum is simply dummy text</p>
-                                </div>
-                                <img src="assets/img/foto4.jpg"/>
+                        <div class="section-projects--photoarea">
+                            <div class="section-projects--photoinfo">
+                                <h5>Digital product</h5>
+                                <p>Simple interfaces designed around real people.</p>
                             </div>
+                            <img src="assets/img/foto4.jpg"/>
                         </div>
-                        <div class="section-projects--photos">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Lorem Ipsum is simply dummy text</p>
-                                </div>
-                                <img src="assets/img/foto5.jpg"/>
+                        <div class="section-projects--photoarea">
+                            <div class="section-projects--photoinfo">
+                                <h5>Campaign</h5>
+                                <p>A natural palette with room to make an impact.</p>
                             </div>
+                            <img src="assets/img/foto5.jpg"/>
                         </div>
-                        <div class="section-projects--photos">
-                            <div class="section-projects--photoarea">
-                                <div class="section-projects--photoinfo">
-                                    <h5>ABOUT</h5>
-                                    <p>Lorem Ipsum is simply dummy text</p>
-                                </div>
-                                <img src="assets/img/foto6.jpg"/>
+                        <div class="section-projects--photoarea">
+                            <div class="section-projects--photoinfo">
+                                <h5>Photography</h5>
+                                <p>Bringing a team’s story into sharper focus.</p>
                             </div>
+                            <img src="assets/img/foto6.jpg"/>
                         </div>
                     </div>
                     <a href="" class="button">More Projects</a>
                 </div>
             </div>
         </section>
-        <section class="default dark bg-team">
+        <section class="default dark bg-team" id="team">
             <div class="section-team-area">
                 <div class="section-title">Our Team</div>
                 <div class="section-desc">Our Co-Workers</div>
                 <div class="section-body">
                     <div class="section-team">
-                        <div class="sliders" style="margin-left: 0;">
+                        <div class="sliders">
                             <div class="slide">
                                 <div class="slidearea">
                                    <img  class="section-team--avatar" src="assets/img/mulher1.png">
@@ -285,52 +241,24 @@
                             </div>
                         </div>
                     </div>
-                    <div class="sliders-pointers">
-                        <div class="pointer active"></div>
-                        <div class="pointer"></div>
-                        <div class="pointer"></div>
-                    </div>
                 </div>
             </div>
         </section>
-        <section class="default light testimonials">
+        <section class="default light testimonials" id="clients">
             <div class="section-title">Happy Clients</div>
             <div class="section-desc">Client Reviews</div>
             <div class="section-body">
                 <div class="section-testimonials">
-                    <div class="sliders" style="margin-left:0;">
+                    <div class="sliders">
                         <div class="slide">
                             <div class="slidearea">
                                 <img class="section-testimonials--avatar" src="assets/img/homem2.png" />
                                 <div class="section-testimonials--name">John Doe</div>
                                 <div class="section-testimonials--role">Head of PR Department</div>
                                 <img class="section-testimonials--quoteimg" src="assets/img/icons/quote.png" />
-                                <div class="section-testimonials--quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus. Maecenas eros lectus, rhoncus vel dictum vel, dignissim eget ligula. Vestibulum id tempus quam, sed pellentesque quam.</div>
+                                <div class="section-testimonials--quote">“The Awax team helped us turn a complicated brief into a brand that feels simple, confident and unmistakably ours. The whole process was thoughtful from day one.”</div>
                             </div>
                         </div>
-                        <!-- <div class="slide">
-                            <div class="slidearea">
-                                <img class="section-testimonials--avatar" src="media/homem2.png" />
-                                <div class="section-testimonials--name">John Doe</div>
-                                <div class="section-testimonials--role">Head of PR Department</div>
-                                <img class="section-testimonials--quoteimg" src="assets/images/quote.png" />
-                                <div class="section-testimonials--quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus. Maecenas eros lectus, rhoncus vel dictum vel, dignissim eget ligula. Vestibulum id tempus quam, sed pellentesque quam.</div>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="slidearea">
-                                <img class="section-testimonials--avatar" src="media/homem2.png" />
-                                <div class="section-testimonials--name">John Doe</div>
-                                <div class="section-testimonials--role">Head of PR Department</div>
-                                <img class="section-testimonials--quoteimg" src="assets/images/quote.png" />
-                                <div class="section-testimonials--quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus. Maecenas eros lectus, rhoncus vel dictum vel, dignissim eget ligula. Vestibulum id tempus quam, sed pellentesque quam.</div>
-                            </div>
-                        </div> -->
-                    </div>
-                    <div class="sliders-pointers">
-                        <div class="pointer active"></div>
-                        <div class="pointer"></div>
-                        <div class="pointer"></div>
                     </div>
                 </div>
             </div>
@@ -361,50 +289,50 @@
             </div>
         </section>
     
-        <section class="default light">
+        <section class="default light" id="price">
             <div class="section-title">Price</div>
             <div class="section-desc">Pricing Table</div>
             <div class="section-body">
                 <div class="section-price">
                         <div class="section-price--item">
-                            <div class="section-price--item-name">Express</div>
+                            <div class="section-price--item-name">Starter</div>
                             <div class="section-price--item-money">$ 9.99</div>
                             <div class="section-price--item-period">/ month</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <a href="" class="button button--dark">Choose</a>
+                            <div class="section-price--item-point">5 active projects</div>
+                            <div class="section-price--item-point">Monthly progress report</div>
+                            <div class="section-price--item-point">Email support</div>
+                            <div class="section-price--item-point">One team workspace</div>
+                            <a href="" class="button">Choose</a>
                         </div>
                         <div class="section-price--item">
-                            <div class="section-price--item-name">Express</div>
-                            <div class="section-price--item-money">$ 9.99</div>
+                            <div class="section-price--item-name">Studio</div>
+                            <div class="section-price--item-money">$ 19.99</div>
                             <div class="section-price--item-period">/ month</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <a href="" class="button button--dark">Choose</a>
+                            <div class="section-price--item-point">15 active projects</div>
+                            <div class="section-price--item-point">Weekly progress report</div>
+                            <div class="section-price--item-point">Priority email support</div>
+                            <div class="section-price--item-point">Three team workspaces</div>
+                            <a href="" class="button">Choose</a>
                         </div>
                         <div class="section-price--item">
-                            <div class="section-price--item-name">Express</div>
-                            <div class="section-price--item-money">$ 9.99</div>
+                            <div class="section-price--item-name">Business</div>
+                            <div class="section-price--item-money">$ 29.99</div>
                             <div class="section-price--item-period">/ month</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <a href="" class="button button--dark">Choose</a>
+                            <div class="section-price--item-point">Unlimited projects</div>
+                            <div class="section-price--item-point">Custom reporting</div>
+                            <div class="section-price--item-point">Priority team support</div>
+                            <div class="section-price--item-point">Shared asset library</div>
+                            <a href="" class="button">Choose</a>
                         </div>
                         <div class="section-price--item">
-                            <div class="section-price--item-name">Express</div>
-                            <div class="section-price--item-money">$ 9.99</div>
+                            <div class="section-price--item-name">Enterprise</div>
+                            <div class="section-price--item-money">$ 49.99</div>
                             <div class="section-price--item-period">/ month</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <div class="section-price--item-point">Tracking issues<br/>--</div>
-                            <a href="" class="button button--dark">Choose</a>
+                            <div class="section-price--item-point">Tailored project capacity</div>
+                            <div class="section-price--item-point">Dedicated account partner</div>
+                            <div class="section-price--item-point">Advanced reporting suite</div>
+                            <div class="section-price--item-point">Custom team onboarding</div>
+                            <a href="" class="button">Choose</a>
                         </div>
                 </div>
             </div>
@@ -415,7 +343,7 @@
             <div class="section-desc">Even More Features Available</div>
             <div class="section-body">
                 <div class="section-premium">
-                    <div class="sliders" style="margin-left:0;">
+                    <div class="sliders">
                         <div class="slide">
                             <div class="slidearea">
                                 <div class="section-premium--left">
@@ -426,48 +354,35 @@
                                             <img src="assets/img/icons/check.png" />
                                             <div>
                                                 <h4>FIRST FEATURE</h4>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.<br/>
-                                                -- FEATURE ONE<br/>
-                                                -- FEATURE TWO<br/>
-                                                -- FEATURE THREE
+                                                A flexible identity system for brands ready to grow.<br/>
+                                                -- Strategy and positioning<br/>
+                                                -- Digital brand toolkit<br/>
+                                                -- Launch-ready guidelines
                                             </div>
                                         </div>
                                         <div class="section-premium--item">
                                             <img src="assets/img/icons/check.png" />
                                             <div>
                                                 <h4>SECOND FEATURE</h4>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.
+                                                Responsive web experiences, designed to feel effortless on every screen.
                                             </div>
                                         </div>
                                         <div class="section-premium--item">
                                             <img src="assets/img/icons/check.png" />
                                             <div>
                                                 <h4>THIRD FEATURE</h4>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus.
+                                                A collaborative process that keeps your team informed at every step.
                                             </div>
                                         </div>
                                 </div>
                             </div>
-                        </div><div class="slide">
-                            <div class="slidearea">
-                                ...
-                            </div>
-                        </div><div class="slide">
-                            <div class="slidearea">
-                                ...
-                            </div>
                         </div>
-                    </div>
-                    <div class="sliders-pointers">
-                        <div class="pointer active"></div>
-                        <div class="pointer"></div>
-                        <div class="pointer"></div>
                     </div>
                 </div>
             </div>
         </section>
     
-        <section class="default dark">
+        <section class="default dark" id="facts">
             <div class="section-title">Some Facts</div>
             <div class="section-desc">About our work</div>
             <div class="section-body">
@@ -476,25 +391,25 @@
                         <h3>1000</h3>
                         <div class="section-fact-line"></div>
                         <h4>Design Projects Released</h4>
-                        <p>Donec tincidunt cursus</p>
+                        <p>Across brand and digital projects</p>
                     </div>
                     <div class="section-fact">
                         <h3>900</h3>
                         <div class="section-fact-line"></div>
                         <h4>Photos</h4>
-                        <p>Morbi ex felis, tincidunt sed hendrerit</p>
+                        <p>Stories captured for teams and campaigns</p>
                     </div>
                     <div class="section-fact">
                         <h3>500</h3>
                         <div class="section-fact-line"></div>
                         <h4>Marketing Ideas</h4>
-                        <p>Donec tincidunt cursus</p>
+                        <p>Ideas shaped side by side with our clients</p>
                     </div>
                     <div class="section-fact">
                         <h3>100</h3>
                         <div class="section-fact-line"></div>
                         <h4>Exhibitions</h4>
-                        <p>Morbi ex felis, tincidunt sed</p>
+                        <p>Experiences crafted for people to remember</p>
                     </div>
                 </div>
             </div>
@@ -537,7 +452,7 @@
             </div>
         </section>
     
-        <section class="default light">
+        <section class="default light" id="contact">
             <div class="section-title">Contact Us</div>
             <div class="section-desc">Our Agency Located in Melbourne, Australia</div>
             <div class="section-body">
@@ -561,31 +476,31 @@
                         <div class="section-map--info-item-img">
                             <img src="assets/img/icons/carta.png"/>
                         </div>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        hello@awax.example
                     </div>
                     <div class="section-map--info-item">
                         <div class="section-map--info-item-img">
                             <img src="assets/img/icons/localizacao.png"/>
                         </div>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        Rua Exemplo, 100 — São Paulo, SP
                     </div>
                     <div class="section-map--info-item">
                         <div class="section-map--info-item-img">
                             <img src="assets/img/icons/telefone.png"/>
                         </div>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        +55 (11) 0000-0000
                     </div>
                     <div class="section-map--info-item">
                         <div class="section-map--info-item-img">
                             <img src="assets/img/icons/arroba.png"/>
                         </div>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        @awaxstudio
                     </div>
                     <div class="section-map--info-item">
                         <div class="section-map--info-item-img">
                             <img src="assets/img/icons/web.png"/>
                         </div>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        www.awax.example
                     </div>
                 </div>
             </div>
@@ -593,7 +508,7 @@
     </main>
     <footer>
         <div class="footer--area">
-            <div class="footer--item area1">
+            <div class="footer--item">
                 <div class="footer-social">
                     <a href=""><img src="assets/img/icons/twitter.png" /></a>
                     <a href=""><img src="assets/img/icons/linkedin.png" /></a>
@@ -603,7 +518,7 @@
                 </div>
             </div>
             <div class="footer--item area2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel eros vitae erat condimentum viverra a nec lacus. Maecenas eros lectus, rhoncus vel dictum vel, dignissim eget ligula. Vestibulum id tempus quam, sed pellentesque quam. Vestibulum porta aliquet risus, ac rhoncus sem aliquet ac. Donec tincidunt cursus elit vitae euismod.
+                    We build clear brands, useful digital experiences and lasting partnerships. Tell us what you are working on and let’s make something meaningful together.
             </div>
             <div class="footer--item area3">
                 <form method="POST">
